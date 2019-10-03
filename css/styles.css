@@ -1,35 +1,31 @@
 /* Base Styles */
 
-* {
+* 
+{
 	box-sizing: border-box;
 }
 
-h1 {
-	font-family: Brushstroke, fantasy;
+h1 
+{
+	font-family: Brushstroke, sans-serif;
 	color: #000000;
 }
 
-body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+body 
+{
+	background-image: url("https://pbs.twimg.com/media/Do73TSDU4AEgQLr.jpg");
+	background-color: #424242;
 
 }
 
-p {
-	padding: 10px;
-	margin: 0;
+p 
+{
+	padding: 50px;
+	margin: 10;
 }
 
-.container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
-}
-
-section {
+section 
+{
 	border:	1px solid black;
 	background-color: #00FF99;
 	width: 100%;
@@ -40,12 +36,23 @@ section {
 	overflow: auto;
 }
 
-#chicken {
+.container 
+{
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#chicken 
+{
 	border: 1px solid black;
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	width: 40%;
+	margin-left: 80%;
+	font-family: Georgia, sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
@@ -59,7 +66,7 @@ section {
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: Georgia, sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
@@ -73,7 +80,7 @@ section {
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: Georgia, sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
@@ -83,42 +90,50 @@ section {
 	padding: 5px;
 }
 
-#chicken-div {
+#chicken-div 
+{
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#beef-div {
+#beef-div 
+{
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#sushi-div {
+#sushi-div 
+{
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-.navbar-brand {
+.navbar-brand 
+{
   font-size: 2em;
   border: 0 0 10px 10px;
   color: #FFFFFF;
 }
 
-#header-nav {
+#header-nav 
+{
   border: 0;
   background-color: #FC5F06;
   color: #FFFFFF;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar 
+{
   border: 1px solid #61122f;
 }
-.navbar-header button.navbar-toggle {
+.navbar-header button.navbar-toggle 
+{
   clear: both;
   margin-top: -30px;
 }
 
-.nav-header {
+.nav-header 
+{
   background-color: #FFFFFF;
 }
 
@@ -127,15 +142,18 @@ section {
   font-size: 1.5em;
 }
 
-#nav-list {
+#nav-list 
+{
   color: white;
 }
 
-hr {
+hr 
+{
   border-color: white;
 }
 
-.item {
+.item 
+{
   color: white;
   font-size: 1.2em;
 }
